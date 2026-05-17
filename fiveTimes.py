@@ -1,4 +1,12 @@
+# print('Hello!')
+# for i in range(5):
+#     print('On this iteration, i is set to ' + str(i))
+# print('Goodbye!')
+
+## Rewriting fiveTimes.py to use a while loop instead of for loop
 print('Hello!')
-for i in range(5):
-    print('On this iteration, i is set to ' + str(i))
+i = 0
+while i < 5:
+    print('On this iteration, i is set to '+ str(i))
+    i = i + 1
 print('Goodbye!')
